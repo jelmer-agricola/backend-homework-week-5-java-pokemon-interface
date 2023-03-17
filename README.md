@@ -141,3 +141,13 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 ## Tip
 
 Let goed op welke tips en advies IntelliJ je geeft!
+
+
+[] methodes pokemonimpl doorlezen 
+[] damage
+[] damage per type 
+[] 
+[]
+[]
+[]verlies bij dode pokemon
+[]

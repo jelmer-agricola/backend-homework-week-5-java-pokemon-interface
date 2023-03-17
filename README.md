@@ -3,6 +3,42 @@
 Je hebt geleerd hoe je relaties, overerving en abstracte klassen moet toepassen. Ook weet je nu meer over: access modifiers, keywords, overloading, klassen, methoden en nog veel meer. In het backend landschap
 worden deze concepten vaak uitgelegd aan de hand van dieren of andere levende wezens. In deze opdracht passen wij de scope, overloading, keywords en interfaces toe op Pokémons!
 
+## Access Modifiers: 
+In Java, access modifiers are keywords that determine the accessibility of a class, method, or variable. There are four access modifiers in Java: public, private, protected, and default.
+
+Public: Public access modifier allows access from anywhere in the program, including other packages.
+Private: Private access modifier restricts access to only within the same class where the variable or method is declared.
+Protected: Protected access modifier allows access to the same class, subclasses, and classes in the same package.
+Default: Default access modifier allows access to the same package only.
+
+## Overloading: 
+Overloading is a feature in Java that allows multiple methods to have the same name but different parameters. The compiler distinguishes between these methods by their number, order, and type of parameters.
+For example:
+
+java
+public int add(int x, int y) {
+return x + y;
+}
+
+public double add(double x, double y) {
+return x + y;
+}
+
+In the above example, there are two methods with the same name "add", but one takes two integers as parameters and the other takes two doubles. This is an example of method overloading.
+
+## Methods:
+Methods are a collection of statements that are grouped together to perform a specific task. In Java, methods are declared inside a class and can be called by other parts of the program. A method consists of a method signature, which includes the method name and the parameters, and a method body, which contains the statements that perform the task.
+For example:
+
+java
+public class Calculator {
+public int add(int x, int y) {
+return x + y;
+}
+}
+In the above example, there is a class called "Calculator" that contains a method called "add". The method takes two parameters (x and y) and returns their sum.
+
+
 ## Opdrachtbeschrijving
 
 Je gaat een applicatie programmeren waarmee een speler via de commandline een spel kan spelen. Degenen die bekend zijn met Pokémon weten

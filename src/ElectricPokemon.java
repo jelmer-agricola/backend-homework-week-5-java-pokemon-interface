@@ -18,9 +18,30 @@ public class ElectricPokemon extends Pokemon {
 
 
 
-    void thunderPunch(Pokemon name, Pokemon enemy){
-        System.out.println( "do damage");
+    public void thunderPunch(Pokemon name, Pokemon enemy){
+        System.out.println(name.getName() + " hits " + enemy.getName() + " with a ThunderPunch!");
+        switch (enemy.getType()) {
+            case "grass" -> {
+                System.out.println(enemy.getName() + " loses 20 hp");
+                enemy.setHp(enemy.getHp() - 20);
+            }
+            case "water" -> {
+                System.out.println(enemy.getName() + " loses 40 hp");
+                enemy.setHp(enemy.getHp() - 40);
+            }
+            case "fire" -> {
+                System.out.println(enemy.getName() + " loses 15 hp");
+                enemy.setHp(enemy.getHp() - 15);
+            }
+            case "electric" -> {
+                System.out.println(enemy.getName() + " loses 10 hp");
+                enemy.setHp(enemy.getHp() - 10);
+            }
+        }
+        System.out.println(enemy.getName() + " has " + enemy.getHp() + " hp left");
     }
+
+
 
     void electroBall(Pokemon name, Pokemon enemy){
         System.out.println( "do damage");

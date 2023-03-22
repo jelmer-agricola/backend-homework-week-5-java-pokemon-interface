@@ -1,18 +1,17 @@
 ## Todo
 - [ ] invetarisatie
+- [ ] methodes pokemonimpl doorlezen
+- [ ] damage
+- [ ] damage per type
 - [ ]
 - [ ]
 - [ ]
-- [ ]
-- [ ]
-
-
+- [ ] verlies bij dode pokemon
+ 
 
 
 
 ## Inleiding
-
-
 
 
 Je hebt geleerd hoe je relaties, overerving en abstracte klassen moet toepassen. Ook weet je nu meer over: access modifiers, keywords, overloading, klassen, methoden en nog veel meer. In het backend landschap
@@ -158,11 +157,3 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 Let goed op welke tips en advies IntelliJ je geeft!
 
 
-[] methodes pokemonimpl doorlezen 
-[] damage
-[] damage per type 
-[] 
-[]
-[]
-[]verlies bij dode pokemon
-[]

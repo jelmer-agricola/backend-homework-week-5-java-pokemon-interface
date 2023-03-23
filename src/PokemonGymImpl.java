@@ -1,4 +1,4 @@
-import java.util.List;
+import java.util.*;
 
 // Los in deze klasse alle foutmeldingen op door (abstracte) klassen met variabelen en methodes te maken en een interface met methodes (en soms een import).
 public class PokemonGymImpl implements PokemonGym {
@@ -154,6 +154,7 @@ public class PokemonGymImpl implements PokemonGym {
 
         switch (pokemon.getType()) {
             case "fire" -> {
+//                hier aanpassing gemaakt
                 fire = new FirePokemon(pokemon.getName(), pokemon.getLevel(), pokemon.getHp(), pokemon.getFood(), pokemon.getSound());
                 switch (choosenAttack) {
                     case "inferno" -> fire.inferno(pokemon, gymPokemon);
